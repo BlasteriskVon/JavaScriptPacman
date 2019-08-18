@@ -149,7 +149,7 @@ function startLevel() {
                 place(pacman, true);
                 if($("#" + getLocation(pacman)).css("background-image") != "none"){
                     console.log($("#" + getLocation(pacman)).css("background-image"));
-                    if($("#" + getLocation(pacman)).css("background-image") === "url(\"file:///C:/Users/andrewv/Documents/pacman/assets/images/powerPellet1.png\")"){
+                    if($("#" + getLocation(pacman)).css("background-image").indexOf("powerPellet1.png") != -1){
                         if(blinky.mode != "eaten"){
                             blinkyFrightened();
                         }
@@ -166,7 +166,7 @@ function startLevel() {
                 place(pacman, true);
                 if($("#" + getLocation(pacman)).css("background-image") != "none"){
                     console.log($("#" + getLocation(pacman)).css("background-image"));
-                    if($("#" + getLocation(pacman)).css("background-image") === "url(\"file:///C:/Users/andrewv/Documents/pacman/assets/images/powerPellet1.png\")"){
+                    if($("#" + getLocation(pacman)).css("background-image").indexOf("powerPellet1.png") != -1){
                         if(blinky.mode != "eaten"){
                             blinkyFrightened();
                         }
@@ -183,7 +183,7 @@ function startLevel() {
                 place(pacman, true);
                 if($("#" + getLocation(pacman)).css("background-image") != "none"){
                     console.log($("#" + getLocation(pacman)).css("background-image"));
-                    if($("#" + getLocation(pacman)).css("background-image") === "url(\"file:///C:/Users/andrewv/Documents/pacman/assets/images/powerPellet1.png\")"){
+                    if($("#" + getLocation(pacman)).css("background-image").indexOf("powerPellet1.png") != -1){
                         if(blinky.mode != "eaten"){
                             blinkyFrightened();
                         }
@@ -200,7 +200,7 @@ function startLevel() {
                 place(pacman, true);
                 if($("#" + getLocation(pacman)).css("background-image") != "none"){
                     console.log($("#" + getLocation(pacman)).css("background-image"));
-                    if($("#" + getLocation(pacman)).css("background-image") === "url(\"file:///C:/Users/andrewv/Documents/pacman/assets/images/powerPellet1.png\")"){
+                    if($("#" + getLocation(pacman)).css("background-image").indexOf("powerPellet1.png") != -1){
                         if(blinky.mode != "eaten"){
                             blinkyFrightened();
                         }
